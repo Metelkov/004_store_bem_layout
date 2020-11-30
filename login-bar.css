@@ -1,0 +1,81 @@
+.login-bar {
+    display: flex;
+    width: 1920px;
+    height: 44px;
+    background-color: rgba(0, 0, 0, 1);
+    color: #969696;
+}
+
+.login-bar__brick {
+    width: 384px;
+    height: 44px;
+    //border: 1px dotted seashell;
+}
+
+
+.login-bar__phone-pic {
+    background: right / contain no-repeat url(phone.png);
+    background-size: 14px 14px;
+}
+
+.login-bar__phone-text {
+    display: flex;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.10em;
+    line-height: 44px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.login__bar-workday {
+    display: flex;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.10em;
+    line-height: 44px;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-around;  
+}
+
+.login__bar-worktime {
+    display: flex;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.10em;
+    line-height: 44px;
+    align-items: center;
+    text-align: center;
+}
+
+.login-bar__exit-pic {
+    background: right / contain no-repeat url(exit_arrow.png);
+    background-size: 14px 14px;
+}
+
+.login-bar__buttons {
+    display: flex;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.10em;
+    line-height: 44px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-around;
+}

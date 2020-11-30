@@ -1,0 +1,56 @@
+.menu-bar {
+    display: flex;
+    width: 1920px;
+    height: 80px;
+    background-color: rgba(15, 15, 15, 1);
+    color: #969696;
+}
+
+.menu-bar__brick {
+    width: 384px;
+    height: 80px;
+    border: 1px dotted seashell;
+}
+
+.menu-bar__porten {
+    color: #ffffff;
+    display: flex;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 0.15em;
+    line-height: 44px;
+    align-items: center;
+    text-align: center;
+}
+
+.menu-bar__buttons {
+    display: flex;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.10em;
+    line-height: 44px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.menu-bar__search {
+    display: flex;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.10em;
+    line-height: 44px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-around;
+}
