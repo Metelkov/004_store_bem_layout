@@ -1,0 +1,64 @@
+.our-brand {
+    display: flex;
+    width: 1920px;
+    height: 362px;
+    background-color: rgba(0, 0, 0, 1);
+    border: 1px solid seashell;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+}
+
+
+.our-brand__void-str {
+    height: 68px;
+    border: 1px solid seashell;
+}
+
+.our-brand__lettering {
+    height: 72px;
+    border: 1px solid seashell;
+}
+
+.our-brand__line-up-drawing {
+    width: 150px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.our-brand__line-up {
+    height: 72px;
+    border: 1px solid seashell;
+}
+
+
+.our-brand__brand {
+    display: flex;
+    height: 82px;
+    flex-direction: row;
+    border: 1px solid seashell;
+}
+
+.our-brand__brand-brand-1 {
+    width: 350px;
+    height: 80px;
+    border: 1px solid seashell;
+}
+
+.our-brand__brand-brand-2 {
+    width: 350px;
+    height: 80px;
+    border: 1px solid seashell;
+}
+
+.our-brand__brand-brand-3 {
+    width: 350px;
+    height: 80px;
+    border: 1px solid seashell;
+}
+
+.our-brand__brand-brand-4 {
+    width: 350px;
+    height: 80px;
+    border: 1px solid seashell;
+}

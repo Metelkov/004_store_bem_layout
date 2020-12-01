@@ -1,0 +1,48 @@
+.footer {
+    display: flex;
+    width: 1920px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 1);
+    color: #969696;
+    border: 1px solid seashell;
+}
+
+.footer__left {
+    flex: 1;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.10em;
+    line-height: 44px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.footer__right {
+    flex: 1;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.10em;
+    line-height: 44px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-around;
+    
+    a {
+        color: #969696; /* Цвет ссылок */
+    }
+    a.content {
+        color: #969696; /* Цвет посещенных ссылок */
+    }
+    a.content:visited {
+        color: #969696;
+    }
+}

@@ -1,0 +1,33 @@
+.info {
+display: flex;
+width: 1920px;
+height: 400px;
+background-color: rgba(0, 0, 0, 1);
+border: 1px solid seashell;
+color: #ffffff;
+}
+
+.info__brick1 {
+    flex: 1;
+    border: 1px solid seashell;
+}
+
+.info__brick2 {
+    flex: 1;
+    border: 1px solid seashell;
+}
+
+.info__brick3 {
+    flex: 1;
+    border: 1px solid seashell;
+}
+
+.info__brick4 {
+    flex: 1;
+    border: 1px solid seashell;
+}
+
+.info__brick5 {
+    flex: 1;
+    border: 1px solid seashell;
+}
