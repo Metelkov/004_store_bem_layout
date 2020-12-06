@@ -9,21 +9,60 @@ color: #ffffff;
 
 .info__brick1 {
     flex: 1;
-    border: 1px solid seashell;
+    flex-direction: column;
 }
 
 .info__brick2 {
     flex: 1;
-    border: 1px solid seashell;
+    align-items: center;
+    //width: 376px;
+    //height: 39px;
+    top: 60px;
+    //left: 816px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-size: 16px;
+//line-height: 48px;
+text-align: center;
+text-transform: uppercase;
+border: 1px solid seashell;
+
 }
 
 .info__brick3 {
     flex: 1;
+
+    //width: 376px;
+    //height: 39px;
+    top: 60px;
+    //left: 816px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-size: 16px;
+//line-height: 48px;
+text-align: center;
+text-transform: uppercase;
+border: 1px solid seashell;
     border: 1px solid seashell;
 }
 
 .info__brick4 {
     flex: 1;
+
+    //width: 376px;
+    //height: 39px;
+    top: 60px;
+    //left: 816px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-size: 16px;
+//line-height: 48px;
+text-align: center;
+text-transform: uppercase;
+border: 1px solid seashell;
     border: 1px solid seashell;
 }
 

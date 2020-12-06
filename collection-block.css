@@ -7,29 +7,35 @@
 
 
 .collection-block__left {
+    position: absolute;
+    width: 880px;
+    height: 600px;
     display: flex;
-    flex: 1;
+    flex-direction: row;
     background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url(cout.jpg);
 }
 
 .collection-block__right {
+    position: absolute;
+    width: 1040px;
+    height: 600px;
     display: flex;
-    flex: 1.5;
+    left: 880px;
     background-color: rgba(0, 0, 0, 1);
-    border: 1px solid seashell;
     flex-direction: column;
     align-items: center;
 }
 
-.collection-block__right-void {
-    height: 95px;
-    width: 100%;
-    border: 1px solid seashell;
-}
-
 .collection-block__right-lettering {
-    height: 80px;
-    width: 380px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 376px;
+    height: 39px;
+    top: 100px;
+    left: 332px;
+
+    
     font-family: Banny;
     font-size: 42px;
     line-height: 0px;
@@ -41,18 +47,40 @@
 }
 
 .collection-block__right-line {
-    width: 150px;
-    height: 2px;
+    position: absolute;
+    display: flex;
+    top: 179px;
+    left: 460px;
+    width: 120px;
+    height: 1px;
     background-color: rgba(255, 255, 255, 1);
 }
 
 .collection-block__right-description {
-    height: 270px;
-    width: 600px;
-    font-family: Banny;
-    font-size: 18px;
+    position: absolute;
     display: flex;
+    top: 219px;
+    left: 285px;
+    width: 471px;
+    height: 173px;
+    font-size: 15px;
     align-items: center;
     text-align: center;
-    border: 1px solid seashell;   
+}
+
+.collection-block__right-button button {
+    position: absolute;
+    top: 431px;
+    left: 310px;
+    vertical-align: middle;
+    text-align: center;
+    width: 420px;
+    height: 50px;
+    font-size: 28px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+    background: transparent;
+    cursor: pointer;
 }

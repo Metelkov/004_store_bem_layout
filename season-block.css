@@ -14,12 +14,6 @@
     flex-direction: row;
 }
 
-.season-block__left-void {
-    position: absolute;
-    width: 1040px;
-    height: 93px;
-}
-
 .season-block__left-lettering {
     position: absolute;
     display: flex;
@@ -46,11 +40,6 @@ text-transform: uppercase;
 /* white */
 
 color: #FFFFFF;
-
-}
-
-.season-block__left-lettering-date {
-
 }
 
 .season-block__left-line {
@@ -164,12 +153,11 @@ color: #FFFFFF;
     width: 376px;
     height: 39px;
     top: 484px;
-    left: 262px;
-    //font-family: Banny;
-    //font-size: 48px;
+    left: 252px;
+    font-size: 38px;
     line-height: 40px;
-    //text-transform: uppercase;
-    border: 1px solid seashell;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
 }
 
 .season-block__right-line {
@@ -182,13 +170,19 @@ color: #FFFFFF;
     background-color: rgba(255, 255, 255, 1);
 }
 
-.season-block__right-button {
+.season-block__right-button button{
     position: absolute;
-    display: flex;
-    top: 570px;
-    left: 340px;
+    top: 580px;
+    left: 361px;
     vertical-align: middle;
     text-align: center;
-    
-    
+    width: 160px;
+    height: 50px;
+    font-size: 28px;
+    line-height: 40px;
+    text-transform: uppercase;
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    background: transparent;
+    cursor: pointer;
 }

@@ -9,27 +9,143 @@
     border: 1px solid seashell;
 }
 
-.income-block-void {
-    height: 100px;
+.income-block__void {
+    height: 60px;
     width: 100%;
-    border: 1px solid seashell;
 }
 
-.income-block-lettering {
-    height: 80px;
-    width: 480px;
-    font-family: Banny;
-    font-size: 42px;
-    line-height: 0px;
+.income-block__lettering {
     display: flex;
+    font-size: 42px;
     align-items: center;
     text-align: center;
     text-transform: uppercase;
+}
+
+.income-block__void-underline {
+    height: 30px;
+    width: 100%;
+}
+
+.income-block__line {
+    display: flex;
+    width: 120px;
+    height: 1px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.income-block__goods-container {
+    display: flex;
+    flex-direction: row;
+    width: 1600px;
+    height: 600px;
+    align-items: center;
+    text-align: center;
     border: 1px solid seashell;
 }
 
-.income-block-line {
-    width: 150px;
-    height: 2px;
-    background-color: rgba(255, 255, 255, 1);
+.income-block__goods-container-brand-1 {
+    display: flex;
+    flex: 1;
+    
+    //flex-direction: row;
+    width: 200px;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    background: no-repeat center/100% url(clock.png);
+    border: 1px solid seashell;
+}
+
+.income-block__goods-container-brand-2 {
+    display: flex;
+    flex: 1;
+    
+    //flex-direction: row;
+    width: 200px;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    background: no-repeat center/100% url(clock.png);
+    border: 1px solid seashell;
+}
+
+.income-block__goods-container-brand-3 {
+    display: flex;
+    flex: 1;
+    
+    //flex-direction: row;
+    width: 200px;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    background: no-repeat center/100% url(clock.png);
+    border: 1px solid seashell;
+}
+
+.income-block__goods-container-brand-4 {
+    display: flex;
+    flex: 1;
+    
+    //flex-direction: row;
+    width: 200px;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    background: no-repeat center/100% url(clock.png);
+    border: 1px solid seashell;
+}
+
+.income-block__goods-container-brand-5 {
+    display: flex;
+    flex: 1;
+    
+    //flex-direction: row;
+    width: 200px;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    background: no-repeat center/100% url(clock.png);
+    border: 1px solid seashell;
+}
+
+.income-block__goods-container-brand-6 {
+    display: flex;
+    flex: 1;
+    
+    //flex-direction: row;
+    width: 200px;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    background: no-repeat center/100% url(clock.png);
+    border: 1px solid seashell;
+}
+
+
+.income-block__goods-container-brand-7 {
+    display: flex;
+    flex: 1;
+    
+    //flex-direction: row;
+    width: 200px;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    background: no-repeat center/100% url(clock.png);
+    border: 1px solid seashell;
+}
+
+.income-block__goods-container-brand-8 {
+    display: flex;
+    flex: 1;
+    
+    //flex-direction: row;
+    width: 200px;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    background: no-repeat center/100% url(clock.png);
+    border: 1px solid seashell;
 }
