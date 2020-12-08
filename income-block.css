@@ -1,3 +1,18 @@
+@font-face {
+	font-family: 'PostNoBillsJaffna'; 
+	src: url(PostNoBillsJaffna-Regular.woff); 
+}
+
+@font-face {
+	font-family: 'PostNoBillsJaffna bold'; 
+	src: url(PostNoBillsJaffna-Bold.woff); 
+}
+
+@font-face {
+	font-family: 'PostNoBillsJaffna medium'; 
+	src: url(PostNoBillsJaffna-Medium.woff); 
+}
+
 .income-block {
     display: flex;
     width: 1920px;
@@ -19,6 +34,7 @@
     font-size: 42px;
     align-items: center;
     text-align: center;
+    font-family: "PostNoBillsJaffna bold";
     text-transform: uppercase;
 }
 
@@ -37,23 +53,29 @@
 
 .income-block__goods-container {
     display: flex;
-    flex-direction: row;
+    //flex-direction: row;
+    //flex: wrap;
+    flex-flow: row wrap;
     width: 1600px;
-    height: 600px;
+    height: 800px;
     align-items: center;
     text-align: center;
+    justify-content: space-around;
     border: 1px solid seashell;
 }
 
 .income-block__goods-container-brand-1 {
     display: flex;
     flex: 1;
-    
+
     //flex-direction: row;
-    width: 200px;
-    height: 600px;
+    //width: 260px;
+    width: 40%;
+    //height: 325px;
+    height: 40%;
     align-items: center;
     text-align: center;
+    background-color: rgba(25, 27, 28, 1);
     background: no-repeat center/100% url(clock.png);
     border: 1px solid seashell;
 }
@@ -63,8 +85,9 @@
     flex: 1;
     
     //flex-direction: row;
-    width: 200px;
-    height: 600px;
+    width: 40%;
+    //height: 325px;
+    height: 40%;
     align-items: center;
     text-align: center;
     background: no-repeat center/100% url(clock.png);
@@ -76,8 +99,9 @@
     flex: 1;
     
     //flex-direction: row;
-    width: 200px;
-    height: 600px;
+    width: 40%;
+    //height: 325px;
+    height: 40%;
     align-items: center;
     text-align: center;
     background: no-repeat center/100% url(clock.png);
@@ -89,8 +113,9 @@
     flex: 1;
     
     //flex-direction: row;
-    width: 200px;
-    height: 600px;
+    width: 40%;
+    //height: 325px;
+    height: 40%;
     align-items: center;
     text-align: center;
     background: no-repeat center/100% url(clock.png);
@@ -102,8 +127,9 @@
     flex: 1;
     
     //flex-direction: row;
-    width: 200px;
-    height: 600px;
+    width: 40%;
+    //height: 325px;
+    height: 40%;
     align-items: center;
     text-align: center;
     background: no-repeat center/100% url(clock.png);
@@ -115,8 +141,8 @@
     flex: 1;
     
     //flex-direction: row;
-    width: 200px;
-    height: 600px;
+    width: 260px;
+    height: 325px;
     align-items: center;
     text-align: center;
     background: no-repeat center/100% url(clock.png);
@@ -129,8 +155,8 @@
     flex: 1;
     
     //flex-direction: row;
-    width: 200px;
-    height: 600px;
+    width: 260px;
+    height: 325px;
     align-items: center;
     text-align: center;
     background: no-repeat center/100% url(clock.png);
@@ -142,8 +168,8 @@
     flex: 1;
     
     //flex-direction: row;
-    width: 200px;
-    height: 600px;
+    width: 260px;
+    height: 325px;
     align-items: center;
     text-align: center;
     background: no-repeat center/100% url(clock.png);

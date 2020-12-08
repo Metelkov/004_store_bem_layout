@@ -1,3 +1,23 @@
+@font-face {
+	font-family: 'PostNoBillsJaffna'; 
+	src: url(PostNoBillsJaffna-Regular.woff); 
+}
+
+@font-face {
+	font-family: 'PostNoBillsJaffna bold'; 
+	src: url(PostNoBillsJaffna-Bold.woff); 
+}
+
+@font-face {
+	font-family: 'PostNoBillsJaffna medium'; 
+	src: url(PostNoBillsJaffna-Medium.woff); 
+}
+
+@font-face {
+	font-family: 'PostNoBillsJaffna light'; 
+	src: url(PostNoBillsJaffna-Light.woff); 
+}
+
 .season-block {
     display: flex;
     width: 1920px;
@@ -19,27 +39,31 @@
     display: flex;
     flex-direction: row;
     align-items: stretch;
-    width: 376px;
+    width: 250px;
     height: 39px;
     top: 93px;
-    left: 332px;
-    //font-family: Banny;
-    //font-size: 48px;
-    line-height: 40px;
-    //text-transform: uppercase;
+    left: 390px;
+    font-family: "PostNoBillsJaffna bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: center;
+    align-content: center;
+    color: #FFFFFF;
     border: 1px solid seashell;
+}
 
-font-family: Playfair Display;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 48px;
-text-align: center;
-text-transform: uppercase;
-
-/* white */
-
-color: #FFFFFF;
+.season-block__left-lettering-date {
+    display: flex;
+    font-family: "PostNoBillsJaffna bold";
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    padding: 1%;
 }
 
 .season-block__left-line {
@@ -104,6 +128,8 @@ color: #FFFFFF;
     height: 50px;
     width: 300px;
     margin: 0 0 10px 10px;
+    font-family: "PostNoBillsJaffna light";
+    color: #FFFFFF;
 }
 
 .season-block__left-photo-1-lettering span {
@@ -117,6 +143,8 @@ color: #FFFFFF;
     height: 50px;
     width: 300px;
     margin: 0 0 10px 16px;
+    font-family: "PostNoBillsJaffna light";
+    color: #FFFFFF;
 }
 
 .season-block__left-photo-2-lettering span {
@@ -130,6 +158,8 @@ color: #FFFFFF;
     height: 50px;
     width: 300px;
     margin: 0 0 10px 16px;
+    font-family: "PostNoBillsJaffna light";
+    color: #FFFFFF;
 }
 
 .season-block__left-photo-3-lettering span {
@@ -142,7 +172,7 @@ color: #FFFFFF;
     width: 880px;
     height: 730px;
     left: 1040px;
-    background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url(waiting_men.jpg);
+    background: no-repeat center/100% url(waiting_men.jpg);
 }
 
 .season-block__right-lettering {
@@ -154,8 +184,12 @@ color: #FFFFFF;
     height: 39px;
     top: 484px;
     left: 252px;
-    font-size: 38px;
-    line-height: 40px;
+    font-family: "PostNoBillsJaffna bold";
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 1);
 }
@@ -180,6 +214,9 @@ color: #FFFFFF;
     height: 50px;
     font-size: 28px;
     line-height: 40px;
+    font-family: "PostNoBillsJaffna light";
+    font-weight: lighter;
+    font-size: 20px;
     text-transform: uppercase;
     border: 1px solid rgba(255, 255, 255, 1);
     color: rgba(255, 255, 255, 1);

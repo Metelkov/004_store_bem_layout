@@ -4,6 +4,7 @@
   <title>eSHOP</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <link href="normalize.css" rel="stylesheet">
+  <!--- почему если подключить этот цсс - не работает (нужно в каждом прописывать @font-face)-->
   <link href="font.css" rel="stylesheet">
   <link href="login-bar.css" rel="stylesheet">
   <link href="menu-bar.css" rel="stylesheet">
@@ -27,10 +28,12 @@
     <span>9:00 — 18:00</span>
   </div>
   <div class="login-bar__brick login-bar__exit-pic">
+    <button></button>
   </div>
   <div class="login-bar__brick login-bar__buttons">
-    <button>Login</button>
-    <button>Register</button>
+    <button class="login-bar__buttons-login">Login</button>
+    <span>/</span>
+    <button class="login-bar__buttons-register">Register</button>
   </div>
 </div>
 <div class = "clear_both"></div>
@@ -43,13 +46,13 @@
   <div class="menu-bar__brick">
   </div>
   <div class="menu-bar__brick menu-bar__buttons">
-    <button>favorites</button>
-    <button>private-office</button>
-    <button>settings</button>
+    <button>Понравилось</button>
+    <button>Личный кабинет</button>
+    <button>Настройки</button>
   </div>
   <div class="menu-bar__brick menu-bar__search">
     <button>cart</button>
-    <button>search</button>
+    <button></button>
   </div>
 </div>
 <div class = "clear_both"></div>
@@ -63,7 +66,7 @@
 <div class="season-block">
   <div class="season-block__left">
     <div class="season-block__left-lettering">
-      <span>Сезон &nbsp&nbsp</span>
+      <span>Сезон &nbsp</span>
       <span class="season-block__left-lettering-date">2020/21</span>
     </div>
     <div class="season-block__left-line">
@@ -181,8 +184,6 @@
     <div class="our-brand__brand-brand-4">
     </div>
   </div>
-
-
 </div>
 <div class = "clear_both"></div>
 
@@ -191,7 +192,7 @@
   <div class="info__brick1">
   </div>
   <div class="info__brick2">
-    <span>О магазине</span>
+    <span class="info__brick2-header">О магазине</span>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi
       semper viverra nunc cursus tortor lectus nunc nulla nibh.
       Egestas amet consectetur vel vitae aliquam dictum
@@ -201,7 +202,7 @@
       nisi, nunc.</p>
   </div>
   <div class="info__brick3">
-    <span>Категории</span>
+    <span class="info__brick3-header">Категории</span>
     <button>Часы</button>
     <button>Браслеты</button>
     <button>Ремни</button>
@@ -209,12 +210,12 @@
     <button>Запонки</button>
   </div>
   <div class="info__brick4">
-    <span>Рассылка</span>
+    <span class="info__brick4-header">Рассылка</span>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi
       semper viverra nunc cursus tortor lectus nunc nulla nibh.</p>
     <form>
       <input type="email" name="answer" value="a1"></input>
-      <input type="submit"></input>
+      <input type="submit" class="info__brick4-submit-button"></input>
     </form>
   </div>
   <div class="info__brick5">
@@ -233,6 +234,7 @@
 </div>
 <div class = "clear_both"></div>
 
+<script async src="login-bar_scr.js"></script>
 </div>
 </body>
 </html>

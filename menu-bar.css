@@ -1,3 +1,18 @@
+@font-face {
+	font-family: 'PostNoBillsJaffna'; 
+	src: url(PostNoBillsJaffna-Regular.woff); 
+}
+
+@font-face {
+	font-family: 'PostNoBillsJaffna bold'; 
+	src: url(PostNoBillsJaffna-Bold.woff); 
+}
+
+@font-face {
+	font-family: 'PostNoBillsJaffna medium'; 
+	src: url(PostNoBillsJaffna-Medium.woff); 
+}
+
 .menu-bar {
     display: flex;
     width: 1920px;
@@ -9,13 +24,13 @@
 .menu-bar__brick {
     width: 384px;
     height: 80px;
-    border: 1px dotted seashell;
 }
 
 .menu-bar__porten {
     color: #ffffff;
     display: flex;
-    font-family: Open Sans;
+    font-family: "PostNoBillsJaffna bold";
+    text-transform: uppercase;
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
@@ -27,7 +42,50 @@
 
 .menu-bar__buttons {
     display: flex;
-    font-family: Open Sans;
+    font-family: "PostNoBillsJaffna medium";
+    font-style: normal;
+    //font-weight: bold;
+    //font-size: 12px;
+    letter-spacing: 0.10em;
+    line-height: 44px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    //justify-content: space-around;
+}
+
+.menu-bar__buttons button{
+    display: flex;
+    flex-wrap: row nowrap;
+    align-content: center;
+    //font-style: normal;
+    flex-direction: row;
+
+    font-size: 10px;
+    letter-spacing: 0.10em;
+    text-align: center;
+    text-transform: uppercase;
+    width: 130px;
+    height: 80px;
+    //justify-content: flex-end; 
+    align-items: center;
+    
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: #969696;
+}
+
+
+.menu-bar__buttons button:hover {
+    color: rgba(255, 255, 255, 1);
+    background: rgba(60, 60, 60, 0.9);
+}
+
+.menu-bar__search {
+    display: flex;
+    font-family: "PostNoBillsJaffna medium";
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
@@ -40,17 +98,32 @@
     justify-content: space-around;
 }
 
-.menu-bar__search {
+.menu-bar__search button{
     display: flex;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    letter-spacing: 0.10em;
-    line-height: 44px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+    flex-wrap: row nowrap;
     align-content: center;
-    justify-content: space-around;
+    font-style: normal;
+    flex-direction: row;
+
+    font-size: 10px;
+    letter-spacing: 0.10em;
+    text-align: center;
+    text-transform: uppercase;
+    width: 130px;
+    height: 80px;
+    //justify-content: flex-end; 
+    align-items: center;
+
+    //почему фоновая картинка отменяется
+    background: no-repeat center/100% url(search.png);
+
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: #969696;
+}
+
+.menu-bar__search button:hover {
+    color: rgba(255, 255, 255, 1);
+    background: rgba(60, 60, 60, 0.9);
 }

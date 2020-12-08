@@ -1,8 +1,24 @@
+@font-face {
+	font-family: 'PostNoBillsJaffna'; 
+	src: url(PostNoBillsJaffna-Regular.woff); 
+}
+
+@font-face {
+	font-family: 'PostNoBillsJaffna bold'; 
+	src: url(PostNoBillsJaffna-Bold.woff); 
+}
+
+@font-face {
+	font-family: 'PostNoBillsJaffna medium'; 
+	src: url(PostNoBillsJaffna-Medium.woff); 
+}
+
 .info {
 display: flex;
 width: 1920px;
 height: 400px;
 background-color: rgba(0, 0, 0, 1);
+background: no-repeat center/100% url(info_bgrnd.jpg);
 border: 1px solid seashell;
 color: #ffffff;
 }
@@ -12,58 +28,122 @@ color: #ffffff;
     flex-direction: column;
 }
 
+.info__brick2-header {
+    font-family: "PostNoBillsJaffna medium";
+    text-transform: uppercase;
+}
+
 .info__brick2 {
+    display: flex;
     flex: 1;
     align-items: center;
+    align-content: center;
     //width: 376px;
     //height: 39px;
     top: 60px;
     //left: 816px;
-
-font-family: Playfair Display;
-font-style: normal;
-font-size: 16px;
-//line-height: 48px;
-text-align: center;
-text-transform: uppercase;
-border: 1px solid seashell;
-
+    font-family: "PostNoBillsJaffna medium";
+    font-style: normal;
+    font-size: 16px;
+    //line-height: 48px;
+    text-align: left;
+    border: 1px solid seashell;
+    letter-spacing: 0.10em;
+    justify-content: center;
+    flex-direction: column;
+    color: #969696;
 }
 
+.info__brick3-header {
+    font-family: "PostNoBillsJaffna medium";
+    text-transform: uppercase;
+}
 .info__brick3 {
-    flex: 1;
-
+    display: flex;
+    flex: 1 wrap;
+    align-items: center;
+    align-content: center;
     //width: 376px;
     //height: 39px;
     top: 60px;
     //left: 816px;
-
-font-family: Playfair Display;
-font-style: normal;
-font-size: 16px;
-//line-height: 48px;
-text-align: center;
-text-transform: uppercase;
-border: 1px solid seashell;
-    border: 1px solid seashell;
+    font-family: "PostNoBillsJaffna medium";
+    font-style: normal;
+    font-size: 16px;
+    //line-height: 48px;
+    text-align: left;
+    letter-spacing: 0.10em;
+    justify-content: space-around;
+    flex-direction: row;
+    color: #969696;
 }
 
-.info__brick4 {
-    flex: 1;
+.info__brick3 button {
+    display: flex;
+    width: 110px;
+    height: 50px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.10em;
+    text-align: center;
+    //justify-content: center;
+    align-content: center;
+    justify-content: space-around;
+    //flex-direction: row;
+    font-family: "PostNoBillsJaffna medium";
+    text-transform: uppercase;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: rgba(15, 15, 15, 1);
+    cursor: pointer;
+    color: #969696;
+}
 
+.info__brick4-header {
+    font-family: "PostNoBillsJaffna medium";
+    text-transform: uppercase;
+}
+.info__brick4 {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    align-content: center;
     //width: 376px;
     //height: 39px;
     top: 60px;
     //left: 816px;
+    font-family: "PostNoBillsJaffna medium";
+    font-style: normal;
+    font-size: 16px;
+    //line-height: 48px;
+    text-align: left;
+    letter-spacing: 0.10em;
+    justify-content: center;
+    flex-direction: column;
+    color: #969696;
+    border: 1px solid rgba(255, 255, 255, 1);
+}
 
-font-family: Playfair Display;
-font-style: normal;
-font-size: 16px;
-//line-height: 48px;
-text-align: center;
-text-transform: uppercase;
-border: 1px solid seashell;
-    border: 1px solid seashell;
+.info__brick4-submit-button{
+    display: flex;
+    width: 110px;
+    height: 50px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.10em;
+    text-align: center;
+    //justify-content: center;
+    align-content: center;
+    justify-content: space-around;
+    //flex-direction: row;
+    text-transform: uppercase;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: rgba(15, 15, 15, 1);
+    cursor: pointer;
+    color: #969696;
 }
 
 .info__brick5 {

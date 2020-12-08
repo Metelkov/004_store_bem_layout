@@ -2,19 +2,18 @@
     display: flex;
     width: 1920px;
     height: 810px;
-    background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url(start_block.jpg);
+    background: no-repeat center/100% url(start_block.jpg);
 }
 
 .start-block__white-square {
     display: flex;
     align-items: center;
     justify-content: center;
-    //строка ниже -не понятны значения в %%
-    margin: 10% 40%;
     //text-align: center;
     //min-height: 200px;
+    width: 300px;
     height: 300px;
-    min-width: 300px;
+    //min-width: 300px;
     border: 1px solid seashell;
 }
 

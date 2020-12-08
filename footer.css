@@ -1,3 +1,19 @@
+@font-face {
+	font-family: 'PostNoBillsJaffna'; 
+	src: url(PostNoBillsJaffna-Regular.woff); 
+}
+
+@font-face {
+	font-family: 'PostNoBillsJaffna bold'; 
+	src: url(PostNoBillsJaffna-Bold.woff); 
+}
+
+@font-face {
+	font-family: 'PostNoBillsJaffna medium'; 
+	src: url(PostNoBillsJaffna-Medium.woff); 
+}
+
+
 .footer {
     display: flex;
     width: 1920px;
@@ -9,9 +25,8 @@
 
 .footer__left {
     flex: 1;
-    font-family: Open Sans;
+    font-family: "PostNoBillsJaffna medium";
     font-style: normal;
-    font-weight: bold;
     font-size: 12px;
     letter-spacing: 0.10em;
     line-height: 44px;
@@ -24,9 +39,8 @@
 
 .footer__right {
     flex: 1;
-    font-family: Open Sans;
+    font-family: "PostNoBillsJaffna medium";
     font-style: normal;
-    font-weight: bold;
     font-size: 12px;
     letter-spacing: 0.10em;
     line-height: 44px;
@@ -35,14 +49,11 @@
     justify-content: center;
     align-content: center;
     justify-content: space-around;
-    
-    a {
-        color: #969696; /* Цвет ссылок */
-    }
-    a.content {
-        color: #969696; /* Цвет посещенных ссылок */
-    }
-    a.content:visited {
-        color: #969696;
-    }
 }
+
+a:link, a:active, a:visited {
+    color: #969696;
+    font-family: "PostNoBillsJaffna medium";
+    text-decoration: none;
+    cursor: pointer;
+    }

@@ -1,3 +1,18 @@
+@font-face {
+	font-family: 'PostNoBillsJaffna'; 
+	src: url(PostNoBillsJaffna-Regular.woff); 
+}
+
+@font-face {
+	font-family: 'PostNoBillsJaffna bold'; 
+	src: url(PostNoBillsJaffna-Bold.woff); 
+}
+
+@font-face {
+	font-family: 'PostNoBillsJaffna medium'; 
+	src: url(PostNoBillsJaffna-Medium.woff); 
+}
+
 .login-bar {
     display: flex;
     width: 1920px;
@@ -19,7 +34,7 @@
 
 .login-bar__phone-text {
     display: flex;
-    font-family: Open Sans;
+    font-family: "PostNoBillsJaffna medium";
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
@@ -34,7 +49,7 @@
 
 .login__bar-workday {
     display: flex;
-    font-family: Open Sans;
+    font-family: "PostNoBillsJaffna medium";
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
@@ -49,7 +64,7 @@
 
 .login__bar-worktime {
     display: flex;
-    font-family: Open Sans;
+    font-family: "PostNoBillsJaffna medium";
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
@@ -59,22 +74,53 @@
     text-align: center;
 }
 
-.login-bar__exit-pic {
-    background: right / contain no-repeat url(exit_arrow.png);
-    background-size: 14px 14px;
+.login-bar__exit-pic button{
+    display: flex;
+    background: no-repeat center/100% url(exit_arrow.png);
+    width: 30px;
+    height: 20px;
+    justify-content: flex-end; 
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+    //background: transparent;
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.login-bar__exit-pic button:hover {
+    color: rgba(255, 255, 255, 1);
+    background: rgba(60, 60, 60, 0.9);
 }
 
 .login-bar__buttons {
     display: flex;
-    font-family: Open Sans;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+.login-bar__buttons button{
+    display: flex;
+    width: 110px;
+    height: 20px;
+    font-family: "PostNoBillsJaffna medium";
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     letter-spacing: 0.10em;
-    line-height: 44px;
-    align-items: center;
     text-align: center;
-    justify-content: center;
+    //justify-content: center;
     align-content: center;
     justify-content: space-around;
+    //flex-direction: row;
+    text-transform: uppercase;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background: transparent;
+    cursor: pointer;
+    color: #969696;
+}
+
+.login-bar__buttons button:hover {
+    color: rgba(255, 255, 255, 1);
+    background: rgba(60, 60, 60, 0.9);
 }
