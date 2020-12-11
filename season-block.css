@@ -92,24 +92,21 @@
     display: flex;
     width: 260px;
     height: 325px;
-    background: no-repeat center/100% url(clock.png);
-    background-color: rgba(25, 27, 28, 1);
+    background: no-repeat center/100% url(clock.png) rgba(25, 27, 28, 1);
 }
 
 .season-block__left-photo-2 {
     display: flex;
     width: 260px;
     height: 325px;
-    background: no-repeat center/100% url(clock.png);
-    background-color: rgba(25, 27, 28, 1);
+    background: no-repeat center/100% url(clock.png) rgba(25, 27, 28, 1);
 }
 
 .season-block__left-photo-3 {
     display: flex;
     width: 260px;
     height: 325px;
-    background: no-repeat center/100% url(clock.png);
-    background-color: rgba(25, 27, 28, 1);
+    background: no-repeat center/100% url(clock.png) rgba(25, 27, 28, 1);
 }
 
 .season-block__left-photo-lettering {

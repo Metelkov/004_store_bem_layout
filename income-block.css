@@ -21,7 +21,6 @@
     color: #ffffff;
     flex-direction: column;
     align-items: center;
-    border: 1px solid seashell;
 }
 
 .income-block__void {
@@ -36,6 +35,7 @@
     text-align: center;
     font-family: "PostNoBillsJaffna bold";
     text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
 }
 
 .income-block__void-underline {
@@ -53,125 +53,164 @@
 
 .income-block__goods-container {
     display: flex;
-    //flex-direction: row;
-    //flex: wrap;
     flex-flow: row wrap;
-    width: 1600px;
-    height: 800px;
+    width: 1155px;
+    height: 818px;
     align-items: center;
     text-align: center;
     justify-content: space-around;
-    border: 1px solid seashell;
 }
 
 .income-block__goods-container-brand-1 {
     display: flex;
-    flex: 1;
-
-    //flex-direction: row;
-    //width: 260px;
-    width: 40%;
-    //height: 325px;
-    height: 40%;
-    align-items: center;
-    text-align: center;
-    background-color: rgba(25, 27, 28, 1);
-    background: no-repeat center/100% url(clock.png);
-    border: 1px solid seashell;
-}
-
-.income-block__goods-container-brand-2 {
-    display: flex;
-    flex: 1;
-    
-    //flex-direction: row;
-    width: 40%;
-    //height: 325px;
-    height: 40%;
-    align-items: center;
-    text-align: center;
-    background: no-repeat center/100% url(clock.png);
-    border: 1px solid seashell;
-}
-
-.income-block__goods-container-brand-3 {
-    display: flex;
-    flex: 1;
-    
-    //flex-direction: row;
-    width: 40%;
-    //height: 325px;
-    height: 40%;
-    align-items: center;
-    text-align: center;
-    background: no-repeat center/100% url(clock.png);
-    border: 1px solid seashell;
-}
-
-.income-block__goods-container-brand-4 {
-    display: flex;
-    flex: 1;
-    
-    //flex-direction: row;
-    width: 40%;
-    //height: 325px;
-    height: 40%;
-    align-items: center;
-    text-align: center;
-    background: no-repeat center/100% url(clock.png);
-    border: 1px solid seashell;
-}
-
-.income-block__goods-container-brand-5 {
-    display: flex;
-    flex: 1;
-    
-    //flex-direction: row;
-    width: 40%;
-    //height: 325px;
-    height: 40%;
-    align-items: center;
-    text-align: center;
-    background: no-repeat center/100% url(clock.png);
-    border: 1px solid seashell;
-}
-
-.income-block__goods-container-brand-6 {
-    display: flex;
-    flex: 1;
-    
-    //flex-direction: row;
     width: 260px;
     height: 325px;
     align-items: center;
     text-align: center;
-    background: no-repeat center/100% url(clock.png);
-    border: 1px solid seashell;
+    background: no-repeat center/100% url(clock.png) rgba(25, 27, 28, 1);
+    
+}
+
+.income-block__goods-container-brand-2 {
+    display: flex;
+    width: 260px;
+    height: 325px;
+    align-items: center;
+    text-align: center;
+    background: no-repeat center/100% url(clock.png) rgba(25, 27, 28, 1);
+}
+
+.income-block__goods-container-brand-3 {
+    display: flex;
+    width: 260px;
+    height: 325px;
+    align-items: center;
+    text-align: center;
+    background: no-repeat center/100% url(clock.png) rgba(25, 27, 28, 1);
+}
+
+.income-block__goods-container-brand-4 {
+    display: flex;
+    width: 260px;
+    height: 325px;
+    align-items: center;
+    text-align: center;
+    background: no-repeat center/100% url(clock.png) rgba(25, 27, 28, 1);
+}
+
+.income-block__goods-container-lettering1 span{
+    display: flex;
+    width: 260px;
+    height: 25px;
+    align-items: center;
+    text-align: center;
+    font-family: "PostNoBillsJaffna light";
+    color: rgba(255, 255, 255, 1);
+}
+
+.income-block__goods-container-lettering2 span{
+    display: flex;
+    width: 260px;
+    height: 25px;
+    align-items: center;
+    text-align: center;
+    font-family: "PostNoBillsJaffna light";
+    color: rgba(255, 255, 255, 1);
+}
+
+.income-block__goods-container-lettering3 span{
+    display: flex;
+    width: 260px;
+    height: 25px;
+    align-items: center;
+    text-align: center;
+    font-family: "PostNoBillsJaffna light";
+    color: rgba(255, 255, 255, 1);
+}
+
+.income-block__goods-container-lettering4 span{
+    display: flex;
+    width: 260px;
+    height: 25px;
+    align-items: center;
+    text-align: center;
+    font-family: "PostNoBillsJaffna light";
+    color: rgba(255, 255, 255, 1);
+}
+
+.income-block__goods-container-brand-5 {
+    display: flex;
+    width: 260px;
+    height: 325px;
+    align-items: center;
+    text-align: center;
+    background: no-repeat center/100% url(clock.png) rgba(25, 27, 28, 1);
+}
+
+.income-block__goods-container-brand-6 {
+    display: flex;
+    width: 260px;
+    height: 325px;
+    align-items: center;
+    text-align: center;
+    background: no-repeat center/100% url(clock.png) rgba(25, 27, 28, 1);
 }
 
 
 .income-block__goods-container-brand-7 {
     display: flex;
-    flex: 1;
-    
-    //flex-direction: row;
     width: 260px;
     height: 325px;
     align-items: center;
     text-align: center;
-    background: no-repeat center/100% url(clock.png);
-    border: 1px solid seashell;
+    background: no-repeat center/100% url(clock.png) rgba(25, 27, 28, 1);
 }
 
 .income-block__goods-container-brand-8 {
     display: flex;
-    flex: 1;
-    
-    //flex-direction: row;
     width: 260px;
     height: 325px;
     align-items: center;
     text-align: center;
-    background: no-repeat center/100% url(clock.png);
-    border: 1px solid seashell;
+    background: no-repeat center/100% url(clock.png) rgba(25, 27, 28, 1);
+}
+
+.income-block__goods-container-lettering5 span{
+    display: flex;
+    width: 260px;
+    height: 25px;
+    align-items: center;
+    text-align: center;
+    font-family: "PostNoBillsJaffna light";
+    color: rgba(255, 255, 255, 1);
+}
+
+.income-block__goods-container-lettering6 span{
+    display: flex;
+    width: 260px;
+    height: 25px;
+    align-items: center;
+    text-align: center;
+    font-family: "PostNoBillsJaffna light";
+    color: rgba(255, 255, 255, 1);
+}
+
+.income-block__goods-container-lettering7 span{
+    display: flex;
+    width: 260px;
+    height: 25px;
+    align-items: center;
+    text-align: center;
+    font-family: "PostNoBillsJaffna light";
+    color: rgba(255, 255, 255, 1);
+}
+
+.income-block__goods-container-lettering8 span{
+    display: flex;
+    width: 260px;
+    height: 25px;
+    align-items: center;
+    text-align: center;
+    font-family: "PostNoBillsJaffna light";
+    color: rgba(255, 255, 255, 1);
 }

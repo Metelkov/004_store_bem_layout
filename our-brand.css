@@ -17,39 +17,21 @@
     display: flex;
     flex-direction: column;
     width: 1920px;
-    height: 368px;
+    height: 362px;
     background-color: rgba(15, 15, 15, 1);
-    border: 1px solid seashell;
     align-items: center;
     justify-content: center;
-    color: rgba(255, 255, 255, 1);
-}
-
-
-.our-brand__void {
-    display: flex;
-    position: absolute;
-    flex-direction: column;
-    align-items: center;
-    height: 60px;
-    width: 100%;
-    border: 1px solid rgb(243, 13, 186);
 }
 
 .our-brand__lettering {
     display: flex;
-    
-    //flex-direction: column;
-    //align-items: stretch;
-    width: 376px;
-    height: 39px;
-    //top: 60px;
-    left: 816px;
-    //font-family: Banny;
-    //font-size: 48px;
-    line-height: 40px;
-    border: 1px solid seashell;
-
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 289px;
+    height: 48px;
+    top: 60px;
+    line-height: 36px;
     font-family: "PostNoBillsJaffna bold";
     font-style: normal;
     font-weight: bold;
@@ -60,16 +42,18 @@
 }
 
 .our-brand__line {
-    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
     height: 2px;
     background-color: rgba(255, 255, 255, 1);
 }
 
 .our-brand__void-underline {
     display: flex;
-    height: 30px;
+    height: 40px;
     width: 100%;
-    border: 1px solid rgb(17, 172, 76);
 }
 
 .our-brand__line-up {
@@ -85,9 +69,8 @@
     align-items: center;
     flex-direction: row;
     align-items: stretch;
-    height: 82px;
+    height: 120px;
     width: 1220px;
-    border: 1px solid seashell;
 }
 
 .our-brand__brand-brand-1 {

@@ -95,7 +95,7 @@
     text-align: center;
     justify-content: center;
     align-content: center;
-    justify-content: space-around;
+    //justify-content: space-around;
 }
 
 .menu-bar__search button{
