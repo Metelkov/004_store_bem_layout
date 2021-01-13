@@ -1,21 +1,26 @@
 @font-face {
 	font-family: 'PostNoBillsJaffna'; 
-	src: url(PostNoBillsJaffna-Regular.woff); 
+	src: url(./fonts/PostNoBillsJaffna-Regular.woff); 
 }
 
 @font-face {
 	font-family: 'PostNoBillsJaffna bold'; 
-	src: url(PostNoBillsJaffna-Bold.woff); 
+	src: url(./fonts/PostNoBillsJaffna-Bold.woff); 
 }
 
 @font-face {
 	font-family: 'PostNoBillsJaffna medium'; 
-	src: url(PostNoBillsJaffna-Medium.woff); 
+	src: url(./fonts/PostNoBillsJaffna-Medium.woff); 
 }
 
 @font-face {
 	font-family: 'PostNoBillsJaffna light'; 
-	src: url(PostNoBillsJaffna-Light.woff); 
+	src: url(./fonts/PostNoBillsJaffna-Light.woff); 
+}
+
+@font-face {
+	font-family: 'PlayfairDisplay'; 
+	src: url(./fonts/PlayfairDisplay-VariableFont_wght.ttf); 
 }
 
 .season-block {
@@ -43,7 +48,7 @@
     height: 39px;
     top: 93px;
     left: 390px;
-    font-family: "PostNoBillsJaffna bold";
+    font-family: "PlayfairDisplay";
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -53,14 +58,13 @@
     justify-content: center;
     align-content: center;
     color: #FFFFFF;
-    border: 1px solid seashell;
 }
 
 .season-block__left-lettering-date {
     display: flex;
-    font-family: "PostNoBillsJaffna bold";
+    font-family: "PlayfairDisplay";
     font-weight: bold;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 50px;
     text-align: center;
     padding: 1%;
@@ -125,7 +129,7 @@
     height: 50px;
     width: 300px;
     margin: 0 0 10px 10px;
-    font-family: "PostNoBillsJaffna light";
+    font-family: "PlayfairDisplay";
     color: #FFFFFF;
 }
 
@@ -140,7 +144,7 @@
     height: 50px;
     width: 300px;
     margin: 0 0 10px 16px;
-    font-family: "PostNoBillsJaffna light";
+    font-family: "PlayfairDisplay";
     color: #FFFFFF;
 }
 
@@ -155,7 +159,7 @@
     height: 50px;
     width: 300px;
     margin: 0 0 10px 16px;
-    font-family: "PostNoBillsJaffna light";
+    font-family: "PlayfairDisplay";
     color: #FFFFFF;
 }
 

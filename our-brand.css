@@ -1,16 +1,6 @@
 @font-face {
-	font-family: 'PostNoBillsJaffna'; 
-	src: url(PostNoBillsJaffna-Regular.woff); 
-}
-
-@font-face {
-	font-family: 'PostNoBillsJaffna bold'; 
-	src: url(PostNoBillsJaffna-Bold.woff); 
-}
-
-@font-face {
-	font-family: 'PostNoBillsJaffna medium'; 
-	src: url(PostNoBillsJaffna-Medium.woff); 
+	font-family: 'PlayfairDisplay'; 
+	src: url(./fonts/PlayfairDisplay-VariableFont_wght.ttf); 
 }
 
 .our-brand {
@@ -32,7 +22,7 @@
     height: 48px;
     top: 60px;
     line-height: 36px;
-    font-family: "PostNoBillsJaffna bold";
+    font-family: "PlayfairDisplay";
     font-style: normal;
     font-weight: bold;
     font-size: 36px;

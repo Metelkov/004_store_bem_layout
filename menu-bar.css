@@ -1,16 +1,21 @@
 @font-face {
 	font-family: 'PostNoBillsJaffna'; 
-	src: url(PostNoBillsJaffna-Regular.woff); 
+	src: url(./fonts/PostNoBillsJaffna-Regular.woff); 
 }
 
 @font-face {
 	font-family: 'PostNoBillsJaffna bold'; 
-	src: url(PostNoBillsJaffna-Bold.woff); 
+	src: url(./fonts/PostNoBillsJaffna-Bold.woff); 
 }
 
 @font-face {
 	font-family: 'PostNoBillsJaffna medium'; 
-	src: url(PostNoBillsJaffna-Medium.woff); 
+	src: url(./fonts/PostNoBillsJaffna-Medium.woff); 
+}
+
+@font-face {
+	font-family: 'PTSans'; 
+	src: url(./fonts/PTSans-Regular.ttf); 
 }
 
 .menu-bar {
@@ -42,88 +47,67 @@
 
 .menu-bar__buttons {
     display: flex;
-    font-family: "PostNoBillsJaffna medium";
+    font-family: "PTSans";
     font-style: normal;
-    //font-weight: bold;
-    //font-size: 12px;
+    font-size: 12px;
+    line-height: 18px;
     letter-spacing: 0.10em;
     line-height: 44px;
     align-items: center;
     text-align: center;
     justify-content: center;
     align-content: center;
-    //justify-content: space-around;
 }
 
 .menu-bar__buttons button{
     display: flex;
     flex-wrap: row nowrap;
     align-content: center;
-    //font-style: normal;
     flex-direction: row;
-
-    font-size: 10px;
     letter-spacing: 0.10em;
     text-align: center;
     text-transform: uppercase;
-    width: 130px;
+    width: 136px;
     height: 80px;
-    //justify-content: flex-end; 
     align-items: center;
-    
+    justify-content: center;
     cursor: pointer;
     background: transparent;
-    border: 1px solid rgba(255, 255, 255, 1);
+    border: none;
     color: #969696;
 }
-
 
 .menu-bar__buttons button:hover {
     color: rgba(255, 255, 255, 1);
     background: rgba(60, 60, 60, 0.9);
+    border: 1px solid rgba(255, 255, 255, 1);
 }
 
 .menu-bar__search {
     display: flex;
-    font-family: "PostNoBillsJaffna medium";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    letter-spacing: 0.10em;
-    line-height: 44px;
+    flex-flow: row;
     align-items: center;
-    text-align: center;
     justify-content: center;
     align-content: center;
-    //justify-content: space-around;
 }
 
-.menu-bar__search button{
+.menu-bar__search-cart {
     display: flex;
-    flex-wrap: row nowrap;
-    align-content: center;
-    font-style: normal;
-    flex-direction: row;
-
-    font-size: 10px;
-    letter-spacing: 0.10em;
-    text-align: center;
-    text-transform: uppercase;
-    width: 130px;
+    width: 136px;
     height: 80px;
-    //justify-content: flex-end; 
-    align-items: center;
+    background: no-repeat center url(cart.png);
+    border: none;
+}
 
-    //почему фоновая картинка отменяется
-    background: no-repeat center/100% url(search.png);
-
-    cursor: pointer;
-    background: transparent;
-    border: 1px solid rgba(255, 255, 255, 1);
-    color: #969696;
+.menu-bar__search-search {
+    display: flex;
+    width: 136px;
+    height: 80px;
+    background: no-repeat center url(search.png);
+    border: none;
 }
 
 .menu-bar__search button:hover {
-    color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
     background: rgba(60, 60, 60, 0.9);
 }

@@ -1,16 +1,16 @@
 @font-face {
 	font-family: 'PostNoBillsJaffna'; 
-	src: url(PostNoBillsJaffna-Regular.woff); 
+	src: url(./fonts/PostNoBillsJaffna-Regular.woff); 
 }
 
 @font-face {
-	font-family: 'PostNoBillsJaffna bold'; 
-	src: url(PostNoBillsJaffna-Bold.woff); 
+	font-family: 'PlayfairDisplay'; 
+	src: url(./fonts/PlayfairDisplay-VariableFont_wght.ttf); 
 }
 
 @font-face {
-	font-family: 'PostNoBillsJaffna medium'; 
-	src: url(PostNoBillsJaffna-Medium.woff); 
+	font-family: 'PTSans'; 
+	src: url(./fonts/PTSans-Regular.ttf); 
 }
 
 .info {
@@ -24,7 +24,6 @@
     justify-content: center;
     background-color: rgba(0, 0, 0, 1);
     background: no-repeat center/100% url(info_bgrnd.jpg);
-    border: 1px solid seashell;
     color: #ffffff;
 }
 
@@ -33,70 +32,64 @@
     flex-flow: row wrap;
     width: 1210px;
     height: 219px;
-    //align-items: center;
-    //align-content: center;
-    //text-align: center;
-    //justify-content: center;
-    border: 1px solid seashell;
 }
 
 .info__container-header1 {
     display: flex;
-    //flex-flow: row wrap;
     width: 383px;
     height: 32px;
     align-items: center;
     align-content: center;
     text-align: left;
-    font-family: "PostNoBillsJaffna medium";
+    font-family: "PlayfairDisplay";
     font-size: 24px;
     text-transform: uppercase;
-    //justify-content: center;
     margin: auto;
 }
 
 .info__container-header2 {
     display: flex;
-    //flex-flow: row wrap;
     width: 383px;
     height: 32px;
     align-items: center;
     align-content: center;
     text-align: left;
-    font-family: "PostNoBillsJaffna medium";
+    font-family: "PlayfairDisplay";
     font-size: 24px;
     text-transform: uppercase;
-    //justify-content: center;
     margin: auto;
 }
 
 .info__container-header3 {
     display: flex;
-    //flex-flow: row wrap;
     width: 383px;
     height: 32px;
     align-items: center;
     align-content: center;
     text-align: left;
-    font-family: "PostNoBillsJaffna medium";
+    font-family: "PlayfairDisplay";
     font-size: 24px;
     text-transform: uppercase;
-    //justify-content: center;
     margin: auto;
 }
 
 .info__container-description1 {
     display: flex;
-    //flex-flow: row wrap;
     width: 383px;
     height: 147px;
     text-align: left;
     margin: auto;
+    font-family: "PTSans";
+    font-size: 14px;
 }
 
 .info__container-description2 {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     flex-flow: row wrap;
+    flex-wrap: wrap;
     width: 383px;
     height: 147px;
     text-align: left;
@@ -108,12 +101,14 @@
     align-items: center;
     height: 41px;
     align-content: center;
+    padding: 15px 37px;
     text-align: left;
-    font-family: "PostNoBillsJaffna medium";
+    font-family: "PTSans";
     text-align: center;
     font-size: 14px;
-    text-transform: uppercase;
+    text-transform: lowercase;
     cursor: pointer;
+    border: none;
     background-color: rgba(15, 15, 15, 1);
     color: rgba(255, 255, 255, 1);
     margin: 2% auto;
@@ -125,16 +120,19 @@
     width: 383px;
     height: 147px;
     text-align: left;
+    font-family: "PTSans";
+    font-size: 14px;
     margin: auto;
 }
 
 .info__container-description3-submit-input {
     width: 225px;
-    height: 41px;
+    height: 40px;
     background: rgba(255, 255, 255, 0.4);
     text-align: left;
-    font-family: "PostNoBillsJaffna medium";
+    font-family: "PTSans";
     font-size: 14px;
+    border: none;
     color: rgba(255, 255, 255, 1);
 }
 
@@ -144,11 +142,13 @@
     align-items: center;
     align-content: center;
     text-align: left;
-    font-family: "PostNoBillsJaffna medium";
-    text-align: center;
+    font-family: "PTSans";
     font-size: 14px;
     text-transform: uppercase;
     cursor: pointer;
+    border: none;
+    background: transparent;
     background-color: rgba(15, 15, 15, 1);
     color: rgba(255, 255, 255, 1);
+    margin-left: -4px;
 }

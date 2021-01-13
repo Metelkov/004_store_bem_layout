@@ -1,17 +1,23 @@
 @font-face {
 	font-family: 'PostNoBillsJaffna'; 
-	src: url(PostNoBillsJaffna-Regular.woff); 
+	src: url(./fonts/PostNoBillsJaffna-Regular.woff); 
 }
 
 @font-face {
 	font-family: 'PostNoBillsJaffna bold'; 
-	src: url(PostNoBillsJaffna-Bold.woff); 
+	src: url(./fonts/PostNoBillsJaffna-Bold.woff); 
 }
 
 @font-face {
 	font-family: 'PostNoBillsJaffna medium'; 
-	src: url(PostNoBillsJaffna-Medium.woff); 
+	src: url(./fonts/PostNoBillsJaffna-Medium.woff); 
 }
+
+@font-face {
+	font-family: 'PlayfairDisplay'; 
+	src: url(./fonts/PlayfairDisplay-VariableFont_wght.ttf); 
+}
+
 
 .income-block {
     display: flex;
@@ -30,10 +36,10 @@
 
 .income-block__lettering {
     display: flex;
-    font-size: 42px;
     align-items: center;
     text-align: center;
-    font-family: "PostNoBillsJaffna bold";
+    font-family: "PlayfairDisplay";
+    font-size: 42px;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 1);
 }

@@ -5,6 +5,8 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <link href="normalize.css" rel="stylesheet">
   <!--- почему если подключить этот цсс - не работает (нужно в каждом прописывать @font-face)-->
+  <!--- подключать шрифты и писать bold, italic font-family: 'PTSans' и font-family: 'PostNoBillsJaffna bold';  -->
+  <!--- еще раз про название длинныз (более 2 слов, переменных) чем разделять слова --->
   <link href="font.css" rel="stylesheet">
   <link href="login-bar.css" rel="stylesheet">
   <link href="menu-bar.css" rel="stylesheet">
@@ -20,20 +22,47 @@
 <div class="login-bar">
   <div class="login-bar__brick login-bar__phone-pic">
   </div>
-  <div class="login-bar__brick login__bar-workday">
-    <span>8 (812) 123-45-67 &nbsp|</span>
-    <span>Работаем 7 дней в неделю &nbsp|</span>
+  <div class="login-bar__delimiter-pic-text">
   </div>
-  <div class="login-bar__brick login__bar-worktime">
+  <div class="login__bar-workday">
+    <span>8 (812) 123-45-67</span>
+    <div class="login-bar__delimiter-text">
+    </div>
+    <span>|</span>
+    <div class="login-bar__delimiter-text">
+    </div>
+    <span>Работаем 7 дней в неделю</span>
+    <div class="login-bar__delimiter-text">
+    </div>
+    <span>|</span>
+    <div class="login-bar__delimiter-text">
+    </div>
     <span>9:00 — 18:00</span>
   </div>
-  <div class="login-bar__brick login-bar__exit-pic">
+  <div class="login-bar__delimiter-text-exit-pic">
+  </div>
+  <div class="login-bar__exit-pic">
     <button></button>
   </div>
-  <div class="login-bar__brick login-bar__buttons">
-    <button class="login-bar__buttons-login">Login</button>
-    <span>/</span>
-    <button class="login-bar__buttons-register">Register</button>
+  <div class="login-bar__delimiter-pic-text">
+  </div>
+  <div class="login-bar__buttons">
+    <button class="login-bar__buttons-login">Login / Register</button>
+    <!--- модальное окно пока тяжело для понимания, scc не применяется к dialog --->
+    <!--- для отлавливания нажатия нужно в самой кнопке делать класс --->
+      <dialog id = "dialog" calss="dialog">
+        <form class="login-bar__form-login">
+          <input type="email" name="login" class="login-bar__buttons-modal-login" 
+          value="Login"></input>
+          <input type="password" name="password" class="login-bar__buttons-modal-password" 
+          value="password"></input>
+          <input type="submit" value="Login" class="login-bar__form-login-button"></input>
+        </form>
+        <form class="login-bar__form-forget-password">
+          <input type="submit" value="Forget password" class="login-bar__form-forget-button"></input>
+        </form>
+        <button id="close">Закрыть</button>
+      </dialog>
   </div>
 </div>
 <div class = "clear_both"></div>
@@ -45,22 +74,30 @@
   </div>
   <div class="menu-bar__brick">
   </div>
-  <div class="menu-bar__brick menu-bar__buttons">
+  <div class="menu-bar__buttons">
     <button>Понравилось</button>
     <button>Личный кабинет</button>
     <button>Настройки</button>
   </div>
-  <div class="menu-bar__brick menu-bar__search">
-    <button>cart</button>
-    <button></button>
+  <div class="menu-bar__search">
+    <!--- при наведении и смене цвета - пропадает картинка --->
+    <button class="menu-bar__search-cart"></button>
+    <button class="menu-bar__search-search"></button>
   </div>
 </div>
 <div class = "clear_both"></div>
 <div class="start-block">
-  <div class="start-block start-block__white-square">
+  <div class="start-block__white-square">
       <span class="start-block__porten">Porten</span>
       <div class="start-block__line"></div>
       <span class="start-block__spb">Санкт-Петербург</span>
+  </div>
+  <div class="start-block__lettering">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus 
+      interdum purus, est tortor pulvinar ut in. Fringilla a diam enim 
+      sed justo, sed iaculis sagittis. Tortor id eu interdum nec ut 
+      iaculis. Penatibus ullamcorper ultricies morbi ipsum sem metus 
+      pharetra, mi. Tortor nibh magna feugiat id nunc, dui nisl viverra.</p>
   </div>
 </div>
 <div class = "clear_both"></div>
@@ -102,7 +139,7 @@
     <div class="season-block__right-line">
     </div>
     <div class="season-block__right-button">
-      <button>Каталог</button>
+      <button class="season-block__right-button-catalog">Каталог</button>
     </div>
   </div>
 </div>
@@ -127,13 +164,11 @@
         aliquam a aliquam egestas leo orci pharetra sed diam.</p>
     </div>
     <div class="collection-block__right-button">
-      <button>Посмотреть коллекцию</button>
+      <button class="collection-block__right-button-show">Посмотреть коллекцию</button>
     </div>
   </div>
 </div>
 <div class = "clear_both"></div>
-
-
 <div class="income-block">
   <div class="income-block__void">
   </div>
@@ -190,8 +225,6 @@
   </div>
 </div>
 <div class = "clear_both"></div>
-
-
 <div class="our-brand">
   <div class="our-brand__lettering">
     <span>Наши бренды</span>
@@ -214,8 +247,6 @@
   </div>
 </div>
 <div class = "clear_both"></div>
-
-
 <div class="info">
     <div class = "info__container">
 
@@ -228,7 +259,6 @@
     <div class="info__container-header3">
       <span>Рассылка</span>
     </div>
-    
     <div class="info__container-description1">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi
         semper viverra nunc cursus tortor lectus nunc nulla nibh.
@@ -238,7 +268,7 @@
         massa pharetra leo. Et ipsum urna fames in sit mi ultrices
         nisi, nunc.</p>
     </div>
-    
+    <!---при масштабировании стр кнопки выезжают за блок --->
     <div class="info__container-description2">
       <button>Часы</button>
       <button>Браслеты</button>
@@ -246,7 +276,6 @@
       <button>Ювелирные изделия</button>
       <button>Запонки</button>
     </div>
-
     <div class="info__container-description3">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi
         semper viverra nunc cursus tortor lectus nunc nulla nibh.</p>
@@ -256,11 +285,9 @@
         <input type="submit" class="info__container-description3-submit-button"></input>
       </form>
     </div>
-
   </div>  
 </div>
 <div class = "clear_both"></div>
-
 <div class="footer">
   <!---- именно через ДИВ, потому что футер в ИЕ до 8 не поддерживается, или нужен именно <footer> ?-->
     <div class="footer__left">
@@ -271,8 +298,9 @@
     </div>
 </div>
 <div class = "clear_both"></div>
-
 <script async src="login-bar_scr.js"></script>
+<script async src="season-block_scr.js"></script>
+<script async src="collection-block_scr.js"></script>
 </div>
 </body>
 </html>

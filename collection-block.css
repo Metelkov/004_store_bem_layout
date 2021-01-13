@@ -1,21 +1,11 @@
 @font-face {
-	font-family: 'PostNoBillsJaffna'; 
-	src: url(PostNoBillsJaffna-Regular.woff); 
+	font-family: 'PlayfairDisplay'; 
+	src: url(./fonts/PlayfairDisplay-VariableFont_wght.ttf); 
 }
 
 @font-face {
-	font-family: 'PostNoBillsJaffna bold'; 
-	src: url(PostNoBillsJaffna-Bold.woff); 
-}
-
-@font-face {
-	font-family: 'PostNoBillsJaffna medium'; 
-	src: url(PostNoBillsJaffna-Medium.woff); 
-}
-
-@font-face {
-	font-family: 'PostNoBillsJaffna light'; 
-	src: url(PostNoBillsJaffna-Light.woff); 
+	font-family: 'PTSans'; 
+	src: url(./fonts/PTSans-Regular.ttf); 
 }
 
 .collection-block {
@@ -54,14 +44,13 @@
     height: 39px;
     top: 100px;
     left: 332px;
-    font-family: "PostNoBillsJaffna medium";
+    font-family: "PlayfairDisplay";
     font-size: 42px;
     line-height: 0px;
     align-items: center;
     text-align: center;
     text-transform: uppercase;
     justify-content: center;
-    border: 1px solid seashell;
 }
 
 .collection-block__right-line {
@@ -81,8 +70,9 @@
     left: 285px;
     width: 471px;
     height: 173px;
-    font-family: "PostNoBillsJaffna light";
-    font-size: 15px;
+    font-family: "PTSans";
+    font-size: 14px;
+    line-height: 21px;
     align-items: center;
     text-align: center;
 }
@@ -97,7 +87,7 @@
     height: 50px;
     font-size: 28px;
     line-height: 38px;
-    font-family: "PostNoBillsJaffna light";
+    font-family: "PTSans";
     text-transform: uppercase;
     color: rgba(255, 255, 255, 1);
     border: 1px solid rgba(255, 255, 255, 1);

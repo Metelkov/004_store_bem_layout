@@ -1,16 +1,21 @@
 @font-face {
 	font-family: 'PostNoBillsJaffna'; 
-	src: url(PostNoBillsJaffna-Regular.woff); 
+	src: url(./fonts/PostNoBillsJaffna-Regular.woff); 
 }
 
 @font-face {
 	font-family: 'PostNoBillsJaffna bold'; 
-	src: url(PostNoBillsJaffna-Bold.woff); 
+	src: url(./fonts/PostNoBillsJaffna-Bold.woff); 
 }
 
 @font-face {
 	font-family: 'PostNoBillsJaffna medium'; 
-	src: url(PostNoBillsJaffna-Medium.woff); 
+	src: url(./fonts/PostNoBillsJaffna-Medium.woff); 
+}
+
+@font-face {
+	font-family: 'PTSans'; 
+	src: url(./fonts/PTSans-Regular.ttf); 
 }
 
 .login-bar {
@@ -22,34 +27,25 @@
 }
 
 .login-bar__brick {
-    width: 384px;
-    height: 44px;
+    width: 400px;
+    height: 43px;
 }
 
 
 .login-bar__phone-pic {
-    background: right / contain no-repeat url(phone.png);
+    background: no-repeat right/100% url(phone.png);
     background-size: 14px 14px;
 }
 
-.login-bar__phone-text {
-    display: flex;
-    font-family: "PostNoBillsJaffna medium";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    letter-spacing: 0.10em;
-    line-height: 44px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-    justify-content: space-around;
+.login-bar__delimiter-pic-text {
+    width: 17px;
+    height: 43px;
 }
 
 .login__bar-workday {
     display: flex;
-    font-family: "PostNoBillsJaffna medium";
+    height: 44px;
+    font-family: "PTSans";
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
@@ -59,37 +55,30 @@
     text-align: left;
     justify-content: center;
     align-content: center;
-    justify-content: space-around;  
+    justify-content: space-around;
 }
 
-.login__bar-worktime {
-    display: flex;
-    font-family: "PostNoBillsJaffna medium";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    letter-spacing: 0.10em;
-    line-height: 44px;
-    align-items: center;
-    text-align: center;
+.login-bar__delimiter-text {
+    width: 17px;
+    height: 15px;
+}
+
+.login-bar__delimiter-text-exit-pic {
+    width: 640px;
+    height: 43px;
 }
 
 .login-bar__exit-pic button{
     display: flex;
-    background: no-repeat center/100% url(exit_arrow.png);
-    width: 30px;
-    height: 20px;
+    margin-top: 13px;
+    background: no-repeat center/100% url(exit.png);
+    width: 14px;
+    height: 18px;
     justify-content: flex-end; 
     align-items: center;
     flex-direction: row;
     cursor: pointer;
-    //background: transparent;
-    border: 1px solid rgba(255, 255, 255, 1);
-}
-
-.login-bar__exit-pic button:hover {
-    color: rgba(255, 255, 255, 1);
-    background: rgba(60, 60, 60, 0.9);
+    border: none;
 }
 
 .login-bar__buttons {
@@ -100,21 +89,18 @@
 }
 
 .login-bar__buttons button{
-    display: flex;
-    width: 110px;
-    height: 20px;
-    font-family: "PostNoBillsJaffna medium";
+    width: 140px;
+    height: 18px;
+    font-family: "PTSans";
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     letter-spacing: 0.10em;
     text-align: center;
-    //justify-content: center;
     align-content: center;
     justify-content: space-around;
-    //flex-direction: row;
     text-transform: uppercase;
-    border: 1px solid rgba(255, 255, 255, 1);
+    border: none;
     background: transparent;
     cursor: pointer;
     color: #969696;
@@ -122,5 +108,4 @@
 
 .login-bar__buttons button:hover {
     color: rgba(255, 255, 255, 1);
-    background: rgba(60, 60, 60, 0.9);
 }
