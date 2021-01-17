@@ -109,3 +109,24 @@
 .login-bar__buttons button:hover {
     color: rgba(255, 255, 255, 1);
 }
+
+.dialog {
+    display: absolute;
+    width: 800px;
+    height: 600px;
+    color: rgba(25, 255, 255, 1);
+}
+
+.login-bar__buttons-close-form button {
+    color:red;
+    background-color: rgba(10, 110, 0, 1);
+}
+
+.login-bar__buttons-close-form {
+    color:red;
+    background-color: rgb(0, 70, 110);
+}
+
+dialog button {
+    background-color: rgba(0, 0, 0, 0.4);
+  }

@@ -48,20 +48,23 @@
   </div>
   <div class="login-bar__buttons">
     <button class="login-bar__buttons-login">Login / Register</button>
-    <!--- модальное окно пока тяжело для понимания, scc не применяется к dialog --->
+    <!--- модальное окно пока тяжело для понимания, scc не применяется к dialog, не закрывается --->
     <!--- для отлавливания нажатия нужно в самой кнопке делать класс --->
+    <!--- в файле js - debugger - будет работать без него, зачем мы его везде вставлвли --->
+    <!--- если на форме несколько модальных окон к dialog можно чтото и приписать dialog-form2 
+      или регуируется только id и class--->
       <dialog id = "dialog" calss="dialog">
         <form class="login-bar__form-login">
           <input type="email" name="login" class="login-bar__buttons-modal-login" 
-          value="Login"></input>
-          <input type="password" name="password" class="login-bar__buttons-modal-password" 
-          value="password"></input>
+          placeholder="Login"></input>
+          <input type="password" name="password" class="login-bar__buttons-modal-password"
+          placeholder="password"></input>
           <input type="submit" value="Login" class="login-bar__form-login-button"></input>
         </form>
         <form class="login-bar__form-forget-password">
           <input type="submit" value="Forget password" class="login-bar__form-forget-button"></input>
         </form>
-        <button id="close">Закрыть</button>
+        <button class="login-bar__buttons-close-form">Закрыть</button>
       </dialog>
   </div>
 </div>
